@@ -1,23 +1,23 @@
 import React from 'react';
 const HeroBanner = () => {
   return (
-    <section className="relative w-full min-h-[1000px] flex flex-col lg:flex-row items-start justify-between pt-0 pb-[100px] px-6 lg:pl-[43px] lg:pr-[52px] gap-8 overflow-hidden">
-      <div className="flex flex-col items-start mt-[120px] lg:mt-[252px] w-full lg:w-[55%] max-w-[802px] z-30 shrink-0">
-        <h1 
-          className="text-white mb-6 flex items-center whitespace-nowrap"
-          style={{ 
-            maxWidth: '798px',
-            width: '100%',
-            opacity: 0.75,
-            fontFamily: 'Inter, sans-serif', 
-            fontWeight: 600,
-            fontSize: 'clamp(40px, 5.5vw, 118px)',
-            lineHeight: '100%',
-            letterSpacing: '0%'
-          }}
-        >
-          Earth's Exhale
-        </h1>
+    <section className="relative w-full min-h-[1000px] flex flex-col lg:flex-row items-start justify-between pt-0 pb-[100px] px-6 lg:pl-[43px] lg:pr-[52px] lg:gap-8 overflow-hidden">
+      <div className="flex flex-col items-start mt-[120px] lg:mt-[252px] flex-1 min-w-0 w-full max-w-[802px] z-30">
+        <div className="w-full max-w-[798px]" style={{ containerType: 'inline-size' }}>
+          <h1 
+            className="text-white mb-6 flex items-center whitespace-nowrap"
+            style={{ 
+              opacity: 0.75,
+              fontFamily: 'Inter, sans-serif', 
+              fontWeight: 600,
+              fontSize: 'min(118px, 14.78cqw)',
+              lineHeight: '100%',
+              letterSpacing: '0%'
+            }}
+          >
+            Earth's Exhale
+          </h1>
+        </div>
         <p 
           className="mb-10 text-[18px] text-white/75 font-light leading-relaxed max-w-[600px] whitespace-normal"
           style={{
@@ -43,7 +43,7 @@ const HeroBanner = () => {
           </button>
         </div>
       </div>
-      <div className="w-full max-w-[550px] lg:max-w-[512px] lg:w-[42%] relative flex items-start lg:justify-end justify-center z-30 mt-[60px] lg:mt-[119px]">
+      <div className="w-full max-w-[550px] lg:max-w-[512px] lg:w-[512px] flex-shrink-0 relative flex items-start lg:justify-end justify-center z-30 mt-[60px] lg:mt-[119px]">
         <div 
           className="relative w-full max-w-[512px]"
           style={{ 
