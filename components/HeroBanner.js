@@ -172,7 +172,7 @@ const HeroBanner = () => {
               overflow: 'hidden'
             }}
           >
-            <img src="/images/04f4a376d1869488dd43f1a5e57a36f5cdf73be4.png" alt="Ronnie Hamill" className="w-full h-full object-cover" />
+            <img src="/images/72419c36cae7ef6f9c25b97e39a231fc9059935c.png" alt="Ronnie Hamill" className="w-full h-full object-cover" />
           </div>
           <div className="flex flex-col justify-center">
             <h4 className="text-[20px] font-medium text-white mb-1">Ronnie Hamill</h4>

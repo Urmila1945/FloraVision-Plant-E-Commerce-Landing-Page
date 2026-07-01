@@ -25,7 +25,27 @@ const reviewsData = [
 const CustomerReviews = () => {
   return (
     <section className="w-full py-12 flex flex-col items-center relative z-20 mt-[80px]">
-      <h2 className="text-[54px] font-bold text-white mb-[80px] text-center leading-tight">
+      <h2 className="text-[54px] font-bold text-white mb-[80px] text-center leading-tight relative w-fit mx-auto px-4 py-2">
+        <svg className="absolute -left-4 -top-2 w-[48px] h-[48px] pointer-events-none" viewBox="0 0 48 48" fill="none">
+          <path d="M0 45.5 V18.5 C0 9.111 6.611 2.5 16 2.5 H48" stroke="url(#bracketGradTL_cr)" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
+          <defs>
+            <linearGradient id="bracketGradTL_cr" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stopColor="#55B000" />
+              <stop offset="50%" stopColor="rgba(255,255,255,0.5)" />
+              <stop offset="100%" stopColor="#4F7A08" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <svg className="absolute -right-4 -bottom-2 w-[48px] h-[48px] pointer-events-none" viewBox="0 0 48 48" fill="none">
+          <path d="M48 2.5 V29.5 C48 38.889 41.389 45.5 32 45.5 H0" stroke="url(#bracketGradBR_cr)" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
+          <defs>
+            <linearGradient id="bracketGradBR_cr" x1="48" y1="48" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stopColor="#55B000" />
+              <stop offset="50%" stopColor="rgba(255,255,255,0.5)" />
+              <stop offset="100%" stopColor="#4F7A08" />
+            </linearGradient>
+          </defs>
+        </svg>
         Customer Review
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-[40px] w-full">
