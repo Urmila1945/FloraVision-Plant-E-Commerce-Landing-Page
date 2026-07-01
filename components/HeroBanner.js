@@ -1,17 +1,17 @@
 import React from 'react';
 const HeroBanner = () => {
   return (
-    <section className="relative w-full min-h-[900px] flex flex-col xl:flex-row items-center xl:items-start justify-between pt-[140px] pb-[100px] px-6 md:px-[68px] gap-16 xl:gap-8 overflow-hidden">
-      <div className="flex flex-col items-start w-full xl:w-[55%] max-w-[802px] z-30 shrink-0">
+    <section className="relative w-full min-h-[900px] flex flex-col xl:flex-row items-center justify-between pt-[40px] pb-[100px] px-6 md:px-[68px] gap-12 xl:gap-4 overflow-hidden">
+      <div className="flex flex-col items-start mt-[40px] xl:mt-[100px] w-full xl:w-[55%] max-w-[802px] z-30 shrink-0">
         <h1 
-          className="text-white mb-6 flex items-center flex-wrap"
+          className="text-white mb-6 flex items-center whitespace-nowrap"
           style={{ 
             maxWidth: '798px',
             width: '100%',
             opacity: 0.75,
             fontFamily: 'Inter, sans-serif', 
             fontWeight: 600,
-            fontSize: 'clamp(64px, 7vw, 118px)',
+            fontSize: 'clamp(48px, 6.5vw, 118px)',
             lineHeight: '100%',
             letterSpacing: '0%'
           }}
@@ -19,7 +19,7 @@ const HeroBanner = () => {
           Earth's Exhale
         </h1>
         <p 
-          className="mb-10 text-[18px] text-white/75 font-light leading-relaxed max-w-[600px]"
+          className="mb-10 text-[18px] text-white/75 font-light leading-relaxed max-w-[600px] whitespace-normal"
           style={{
             fontFamily: 'Inter, sans-serif',
           }}
@@ -43,7 +43,7 @@ const HeroBanner = () => {
           </button>
         </div>
       </div>
-      <div className="w-full max-w-[550px] xl:max-w-none xl:w-[45%] relative flex items-center justify-end z-30 xl:pt-[150px]">
+      <div className="w-full max-w-[550px] xl:max-w-none xl:w-[42%] relative flex items-center xl:justify-end justify-center z-30 pt-0 xl:pt-[150px]">
         <div 
           className="relative w-full max-w-[512px]"
           style={{ 
