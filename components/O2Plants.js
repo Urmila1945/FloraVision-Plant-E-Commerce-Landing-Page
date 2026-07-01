@@ -64,7 +64,7 @@ const O2Plants = () => {
             }}
           >
             <Image 
-              src="/images/Rose Gold Feminine Calligraphy Monogram Logo(15).png.png" 
+              src="/images/aglaonema.png" 
               alt="O2 Plant" 
               fill
               priority

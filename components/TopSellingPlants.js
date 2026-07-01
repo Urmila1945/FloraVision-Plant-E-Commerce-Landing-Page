@@ -1,6 +1,6 @@
 import React from 'react';
 const topSellingPlantsData = [
-  { id: 1, name: 'Aglaonema plant', desc: 'The Aglaonema plant, commonly known as Chinese Evergreen, known for its attractive foliage and ease of care.', price: 'Rs. 300/-', imageSrc: '/images/Rose Gold Feminine Calligraphy Monogram Logo(15).png.png' },
+  { id: 1, name: 'Aglaonema plant', desc: 'The Aglaonema plant, commonly known as Chinese Evergreen, known for its attractive foliage and ease of care.', price: 'Rs. 300/-', imageSrc: '/images/aglaonema.png' },
   { id: 2, name: 'Plantain Lilies', desc: 'Hostas are primarily grown for their lush, decorative leaves, which come in a wide variety of shapes, sizes.', price: 'Rs. 380/-', imageSrc: '/images/b48312dbddc890f7f35ef3964ae1e7900b89782c.png' },
   { id: 3, name: 'Cactus', desc: 'It is known for their ability to thrive in arid environments.', price: 'Rs. 259/-', imageSrc: '/images/6d90916507b2b3030961c99c6af0ebac97b86c78.png' },
   { id: 4, name: 'Swiss cheese Plant', desc: 'It is a popular tropical houseplant known for its distinctive, perforated leaves.', price: 'Rs. 400/-', imageSrc: '/images/5196aba58f7006d90ec0712ac1d01688cde1a537.png' },

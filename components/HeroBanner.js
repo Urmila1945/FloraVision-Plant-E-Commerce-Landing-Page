@@ -123,7 +123,7 @@ const HeroBanner = () => {
             </div>
           </div>
           <img 
-            src="/images/Rose Gold Feminine Calligraphy Monogram Logo(15).png.png" 
+            src="/images/aglaonema.png" 
             alt="Aglaonema Plant" 
             className="absolute pointer-events-none object-contain z-20"
             style={{
