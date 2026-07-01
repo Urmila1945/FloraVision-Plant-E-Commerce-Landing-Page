@@ -1,8 +1,8 @@
 import React from 'react';
 const HeroBanner = () => {
   return (
-    <section className="relative w-full min-h-[900px] flex flex-col xl:flex-row items-center justify-between pt-[40px] pb-[100px] px-6 md:px-[68px] gap-12 xl:gap-4 overflow-hidden">
-      <div className="flex flex-col items-start mt-[40px] xl:mt-[100px] w-full xl:w-[55%] max-w-[802px] z-30 shrink-0">
+    <section className="relative w-full min-h-[1000px] flex flex-col lg:flex-row items-start justify-between pt-0 pb-[100px] px-6 lg:pl-[43px] lg:pr-[52px] gap-8 overflow-hidden">
+      <div className="flex flex-col items-start mt-[120px] lg:mt-[252px] w-full lg:w-[55%] max-w-[802px] z-30 shrink-0">
         <h1 
           className="text-white mb-6 flex items-center whitespace-nowrap"
           style={{ 
@@ -11,7 +11,7 @@ const HeroBanner = () => {
             opacity: 0.75,
             fontFamily: 'Inter, sans-serif', 
             fontWeight: 600,
-            fontSize: 'clamp(48px, 6.5vw, 118px)',
+            fontSize: 'clamp(40px, 5.5vw, 118px)',
             lineHeight: '100%',
             letterSpacing: '0%'
           }}
@@ -43,7 +43,7 @@ const HeroBanner = () => {
           </button>
         </div>
       </div>
-      <div className="w-full max-w-[550px] xl:max-w-none xl:w-[42%] relative flex items-center xl:justify-end justify-center z-30 pt-0 xl:pt-[150px]">
+      <div className="w-full max-w-[550px] lg:max-w-[512px] lg:w-[42%] relative flex items-start lg:justify-end justify-center z-30 mt-[60px] lg:mt-[119px]">
         <div 
           className="relative w-full max-w-[512px]"
           style={{ 
