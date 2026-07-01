@@ -35,15 +35,15 @@ const O2Plants = () => {
           style={{ 
             aspectRatio: '1600 / 755', 
             containerType: 'inline-size',
-            borderRadius: '5.75cqw',
+            borderRadius: 'clamp(40px, 6vw, 92px)',
             padding: '3.75cqw'
           }}
         >
           <div 
             className="absolute inset-0 pointer-events-none"
             style={{
-              borderRadius: '5.75cqw',
-              padding: 'max(1px, 0.18cqw)',
+              borderRadius: 'clamp(40px, 6vw, 92px)',
+              padding: '3px',
               background: 'linear-gradient(to bottom, rgba(255,255,255,0.44) 0%, rgba(0,0,0,0) 50%, rgba(255,255,255,0.33) 100%)',
               WebkitMask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
               WebkitMaskComposite: 'xor',
